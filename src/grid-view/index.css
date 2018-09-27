@@ -1,0 +1,10 @@
+@import 'grid.css';
+@import 'grid-mobile.css';
+.column-view {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.layout-view {
+    clear: both
+}
