@@ -1,0 +1,9 @@
+@import "flexbox-layout.css";
+@import "flexbox-layout-mobile.css";
+@import "layout-theme.css";
+
+/* reset box model */
+
+* {
+    box-sizing: border-box;
+}
