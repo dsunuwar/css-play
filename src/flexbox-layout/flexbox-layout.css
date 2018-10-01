@@ -7,15 +7,26 @@
     text-align: center;
 }
 
+
+/* flex container */
+
 .row {
     display: flex;
+    /*flex-flow: flex-direction flex-wrap */
     flex-flow: row wrap;
 }
 
+
+/* flex item */
+
 .side {
+    /*flex: flex-grow flex-shrink flex-basis */
     flex: 30%;
     padding: 20px;
 }
+
+
+/* flex item */
 
 .main {
     flex: 70%;

@@ -89,7 +89,10 @@
 }
 
 
-/* apply margin on all columns except the first one */
+/* 
+Apply margin on all columns except the first one. 
+Adjacent sibling selector('+') selects elements immediately following first col- 
+*/
 
 [class*="col-"]+[class*="col-"] {
     margin-left: 1.6%
