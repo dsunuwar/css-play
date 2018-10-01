@@ -8,8 +8,12 @@
 
 
 /* 
-    
+    NOTE: 
+    first width is padding approach, where,
     width of 1 column = 100% / 12 = 8.33% 
+
+    second width is margin approach, where
+    single column width (scw) = (100 – (m x (mc – 1))) / mc
 */
 
 .col-1 {

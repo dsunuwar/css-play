@@ -1,0 +1,21 @@
+/* Layout with variable columns */
+
+.col.side {
+    /* 2 columns layout left side bar, and content */
+    width: 25%
+}
+
+.col.content {
+    /* 2 columns layout left side bar, and content */
+    width: 75%
+}
+
+
+/* mobile layout  */
+
+@media screen and (max-width: 600px) {
+    .col.side,
+    .col.content {
+        width: 100%;
+    }
+}
