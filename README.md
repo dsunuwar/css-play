@@ -1,3 +1,6 @@
-# css-play
+# Summary
 
-Use this folder for experimenting with CSS
+CSS playground, experiment anything and everything about CSS.
+
+
+
